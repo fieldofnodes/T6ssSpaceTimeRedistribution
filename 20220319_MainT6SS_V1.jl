@@ -13,6 +13,9 @@ using Pkg; Pkg.activate(".")
 # Load packages needed
 include("packages.jl")
 
+
+T6SSModellingStochasticTimerRW
+
 ########################
 #### Initiate Model ####
 ########################
@@ -60,12 +63,13 @@ include("view/20220319_ViewMultipleParamsIters_V1.jl")
 
 # Load view to visualise the distances
 include("view/20220329_GetHistogramDistancesT6ss_V1.jl")
-hrange = range(0,4,length=30)
+
 
 ################################
 #### Stipulate Input Values ####
 ################################
 //
+        hrange = range(0,4,length=30)
         Δt = 0.0001
         Δx = 1
         T = 10
