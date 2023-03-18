@@ -246,13 +246,10 @@ function generate_figure_4()
     figsa = generate_figure_4_a(input_values)
     figsb = generate_figure_4_b(grouped_file_paths,iters_get_values)
     figsc = generate_figure_4_c(grouped_file_paths,input_values,iters_get_values)
-    figsdscat = generate_figure_4_d(grouped_file_paths,iters_get_values)    
+    figsd = generate_figure_4_d(grouped_file_paths,iters_get_values)    
 
-    save_figure(figsa,figa)
-    save_figure(figsb,figb)
-    save_figure(figsc,figc)
-    save_figure(figsdscat,figd)
 
+    return (a = figsa,b = figsb,c=figsc,d=figsd)
 end
 
 
