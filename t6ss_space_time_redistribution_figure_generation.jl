@@ -430,6 +430,9 @@ telegraph_walker = get_all_walker_position(var,Δp,dom)
 telegraph_walker.states
 telegraph_walker.walk
 get_all_indices(telegraph_walker.states)
+get_indices(state_time_series,t⃗)
+get_times(gi::telegraph_points,t⃗,s₀)
+
 
 
 
