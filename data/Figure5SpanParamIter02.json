@@ -1,0 +1,29 @@
+{
+    "variables": {
+        "Δt": 0.0001,
+        "Δx": 0.1,
+        "T": 10,
+        "X": 2,
+        "aspect": 1.6,
+        "boundary": "no_flux"
+    },
+    "parameters": {
+        "λ₀": 0.1,
+        "λ₁": 1,
+        "h": 0.05245
+    },
+    "domain": {
+        "width": 2,
+        "length": 3.2
+    },
+    "iterations": {
+        "simulation_iterations": 0,
+        "parameter_iterations": 3
+    },
+    "experimental": [
+        1.8
+    ],
+    "sample": [
+        1.6
+    ]
+}
