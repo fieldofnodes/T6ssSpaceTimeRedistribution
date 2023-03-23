@@ -66,16 +66,16 @@ Figure 4 consists of four plots, $a,b,c$ and $d$.
 figure_4 = generate_figure_4()
 
 # ╔═╡ 4d880403-6900-45e6-bdc9-52b8c4736d59
-
+figure_4[:a]
 
 # ╔═╡ 6f2b35d8-3bd6-43fe-b35a-fcde5c16af54
-
+figure_4[:b]
 
 # ╔═╡ 2146790d-7ef8-46bc-aa3b-19ccbefb7bda
-
+figure_4[:c]
 
 # ╔═╡ 599eb2b3-8ead-4ce8-b1e1-b1be5070b112
-
+figure_4[:d]
 
 # ╔═╡ cbdc53b4-a54b-49d9-9cb4-47df6693e0e1
 md"""
@@ -84,19 +84,19 @@ Figure 5 consists of four plots, $a,b,c$ and $d$.
 """
 
 # ╔═╡ 24ae2017-5214-4242-a475-e2ad27518543
-
+figure_5 = generate_figure_5()
 
 # ╔═╡ 99f38dc1-525d-4265-9176-0798ce5b2462
-
+figure_5[:a]
 
 # ╔═╡ 146e2d55-b295-4430-975e-dc7bbfbaeaad
-
+figure_5[:b]
 
 # ╔═╡ aec4163c-bf37-4c91-a67d-cc50dc4885db
-
+figure_5[:c]
 
 # ╔═╡ e9308aa6-aac0-4330-b322-d4710dd75c85
-
+figure_5[:d]
 
 # ╔═╡ Cell order:
 # ╟─d70a45dc-c920-11ed-0746-775e23b3881d

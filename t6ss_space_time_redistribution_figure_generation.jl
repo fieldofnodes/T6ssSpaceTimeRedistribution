@@ -10,23 +10,11 @@ using T6SSModellingStochasticTimerRW
 
 
 input_values = pre_defined_params(5)
-
-
-
 generate_figure_5_data(input_values)
-
-
 iters_get_values = generate_iters_get_values() 
-
-
-
-input_values = pre_defined_params()
-iters_get_values = generate_iters_get_values()
-generate_figure_5_data(input_values)
 figsa = generate_figure_5_a(iters_get_values)
 figsb = generate_figure_5_b(input_values,iters_get_values)
-figsc = generate_figure_5_c(iters_get_values)
-
+figsc = generate_fi 
 
 
 
