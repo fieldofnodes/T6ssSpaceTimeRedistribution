@@ -1,4 +1,7 @@
 [deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 RandomWalker = "7fedaefd-d960-4ead-b78b-a12e7d3c4dc2"
 T6SSModellingStochasticTimerRW = "0c0abd89-3d00-452f-bfc2-ba0bbfa02c6f"
 Telegraph = "d9abfcff-0c94-4277-a476-16906862b370"
