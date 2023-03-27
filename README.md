@@ -1,4 +1,18 @@
+# T6ssSpaceTimeRedistribution
+The correpsonding repository to interface `Telegraph.jl`, `RandomWalker.jl` and `T6SSModellingStochasticTimerRW.jl` and call the figures found in figures 3,4 and 5 in the paper: Space and time on the membrane: a model of Type VI secretion system redistribution.
 
+## tl;dr
+For those not new to Julia
+
+```julia
+add https://github.com/fieldofnodes/Telegraph.jl
+add https://github.com/fieldofnodes/RandomWalker.jl
+add https://github.com/fieldofnodes/T6SSModellingStochasticTimerRW.jl
+```
+
+are needed, as well as Pluto and PlutoUI. 
+
+Open notebook: `generate_figures-345_from_paper.jl` and execute code.
 
 ## Download (clone) the repository
 
@@ -110,7 +124,7 @@ Still in the terminal,
 add https://github.com/fieldofnodes/Telegraph.jl
 add https://github.com/fieldofnodes/RandomWalker.jl
 add https://github.com/fieldofnodes/T6SSModellingStochasticTimerRW.jl
-
+```
 
 Once complete run
 
@@ -122,7 +136,11 @@ using Pluto
 Pluto.run()
 ```
 
+![pluto_terminal](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_terminal.png)
+
 There should be an automatic direct to an opened browser 
 
 ![pluto_browser](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_opening.png)
+
+The file to open is called `generate_figures-345_from_paper.jl`. Each figure and subsequent sub-figures can be run from the browser.
 
