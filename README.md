@@ -122,5 +122,7 @@ using Pluto
 Pluto.run()
 ```
 
+There should be an automatic direct to an opened browser 
 
+![pluto_browser](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_opening.png)
 
