@@ -1,4 +1,10 @@
 
+## Getting started with Julia
+Download Julia with your favourite OS at the [download page](https://julialang.org/downloads/) for [www.julialang.org](https://julialang.org/). 
+
+Once downloaded and installed, open a terminal session.
+
+ 
 ## Installation
 This repository depends on two other unregistered packages which I wrote, `Telegraph.jl` and `RandomWalker.jl`. To install this package, `T6SSModellingStochasticTimerRW.jl` open julia in your preferred way.
 
