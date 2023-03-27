@@ -4,7 +4,6 @@ Download Julia with your favourite OS at the [download page](https://julialang.o
 
 Once downloaded and installed, open a terminal session.
 
-![julia_terminal](figs/julia_termina_begin.png)
  
 ## Installation
 This repository depends on two other unregistered packages which I wrote, `Telegraph.jl` and `RandomWalker.jl`. To install this package, `T6SSModellingStochasticTimerRW.jl` open julia in your preferred way.
