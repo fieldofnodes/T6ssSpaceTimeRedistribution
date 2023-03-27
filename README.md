@@ -110,7 +110,7 @@ Still in the terminal,
 add https://github.com/fieldofnodes/Telegraph.jl
 add https://github.com/fieldofnodes/RandomWalker.jl
 add https://github.com/fieldofnodes/T6SSModellingStochasticTimerRW.jl
-
+```
 
 Once complete run
 
@@ -122,7 +122,11 @@ using Pluto
 Pluto.run()
 ```
 
+![pluto_terminal](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_terminal.png)
+
 There should be an automatic direct to an opened browser 
 
 ![pluto_browser](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_opening.png)
+
+The file to open is called `generate_figures-345_from_paper.jl`. Each figure and subsequent sub-figures can be run from the browser.
 
