@@ -144,3 +144,5 @@ There should be an automatic direct to an opened browser
 
 The file to open is called `generate_figures-345_from_paper.jl`. Each figure and subsequent sub-figures can be run from the browser.
 
+### Alternatively 
+Open up a favourite code editor and run `src/t6ss_space_time_redistribution_figure_generation.jl`
