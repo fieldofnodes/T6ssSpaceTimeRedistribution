@@ -16,6 +16,18 @@ save("figs/figure_3_b.png",figure_3[:b])
 save("figs/figure_3_c.png",figure_3[:c])
 save("figs/figure_3_d.png",figure_3[:d])
 
+figure_4 = generate_figure_4_a_bc_d(input_values)
+save("figs/figure_4_a.png",figure_4[:a])
+save("figs/figure_4_bc.png",figure_4[:bc])
+save("figs/figure_4_d.png",figure_4[:d])
+
+figure_5 = generate_figure_5_ab_c(input_values)
+save("figs/figure_5_ab.png",figure_5[:ab])
+save("figs/figure_5_c.png",figure_5[:c])
+
+# Don't run
+#=
+
 figure_4 = generate_figure_4(input_values)
 save("figs/figure_4_a.png",figure_4[:a])
 save("figs/figure_4_b.png",figure_4[:b])
@@ -26,6 +38,11 @@ figure_5 = generate_figure_5(input_values)
 save("figs/figure_5_a.png",figure_5[:a])
 save("figs/figure_5_b.png",figure_5[:b])
 save("figs/figure_5_c.png",figure_5[:c])
+
+
+=#
+
+
 
 
 
