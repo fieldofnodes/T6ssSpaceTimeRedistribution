@@ -25,8 +25,16 @@ figure_5 = generate_figure_5_ab_c(input_values)
 save("figs/figure_5_ab.png",figure_5[:ab])
 save("figs/figure_5_c.png",figure_5[:c])
 
-# Don't run
+
+
+
+
+
+
+# Don't run (20230818 )
 #=
+
+Displays results as individual 
 
 figure_4 = generate_figure_4(input_values)
 save("figs/figure_4_a.png",figure_4[:a])
