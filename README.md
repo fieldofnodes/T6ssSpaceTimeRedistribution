@@ -12,7 +12,7 @@ add https://github.com/fieldofnodes/T6SSModellingStochasticTimerRW.jl
 
 are needed, as well as Pluto and PlutoUI. 
 
-Open notebook: `generate_figures-345_from_paper.jl` and execute code.
+Open file: `src/t6ss_space_time_redistribution_figure_generation.jl` and execute code.
 
 ## Download (clone) the repository
 
