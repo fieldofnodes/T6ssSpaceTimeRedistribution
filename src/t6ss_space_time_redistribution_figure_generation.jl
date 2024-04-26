@@ -67,25 +67,6 @@ save("figs/figure_5_ab.png",figs5ab)
 save("figs/figure_5_c.png",figs5c)
 
 
-# Don't run (20230818 )
-#=
-
-Displays results as individual 
-
-figure_4 = generate_figure_4(input_values)
-save("figs/figure_4_a.png",figure_4[:a])
-save("figs/figure_4_b.png",figure_4[:b])
-save("figs/figure_4_c.png",figure_4[:c])
-save("figs/figure_4_d.png",figure_4[:d])
-
-figure_5 = generate_figure_5(input_values)
-save("figs/figure_5_a.png",figure_5[:a])
-save("figs/figure_5_b.png",figure_5[:b])
-save("figs/figure_5_c.png",figure_5[:c])
-
-
-=#
-
 
 
 
