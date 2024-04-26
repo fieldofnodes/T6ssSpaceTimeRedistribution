@@ -100,16 +100,6 @@ this will activate the current director as a project. As `T6ssSpaceTimeRedistrib
  ```
 This means Julia is opened at the correct directory. Next some package need to be installed.
  
- ### Install Pluto and PlutoUI
- 
- Still in the temrinal `(T6ssSpaceTimeRedistribution) pkg>` should be waiting for an input
-
-```julia
- add Pluto PlutoUI
- ```
- 
- `Pluto.jl` is a package that allows Julia to be executed in a browser based notebook. `PlutoUI.jl` is a helper package to Pluto to show a table of contents in the notebook.
- 
 ## Paper relevant package installations
 
 This repository depends on three unregistered packages (unregistered as they have not requiest the general register to be accepted as a registered packaged,
@@ -126,23 +116,4 @@ add https://github.com/fieldofnodes/RandomWalker.jl
 add https://github.com/fieldofnodes/T6SSModellingStochasticTimerRW.jl
 ```
 
-Once complete run
-
-```julia
-using Pluto
-```
-
-```julia
-Pluto.run()
-```
-
-![pluto_terminal](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_terminal.png)
-
-There should be an automatic direct to an opened browser 
-
-![pluto_browser](https://github.com/fieldofnodes/T6ssSpaceTimeRedistribution/blob/main/figs/pluto_opening.png)
-
-The file to open is called `generate_figures-345_from_paper.jl`. Each figure and subsequent sub-figures can be run from the browser.
-
-### Alternatively 
 Open up a favourite code editor and run `src/t6ss_space_time_redistribution_figure_generation.jl`
